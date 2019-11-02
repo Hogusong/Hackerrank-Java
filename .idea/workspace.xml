@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b82c60fc-1bdb-4829-801e-0d20c5e3c2fc" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/young/Arrays/LeftRotation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/young/Arrays/NewYearChaos.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -33,11 +33,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LeftRotation.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LeftRotation.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/young/Arrays/LeftRotation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="49" lean-forward="true" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
+            <state relative-caret-position="210">
+              <caret line="14" selection-start-line="14" selection-end-line="21" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NewYearChaos.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/young/Arrays/NewYearChaos.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="127">
+              <caret line="29" column="37" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -63,6 +75,7 @@
         <option value="$PROJECT_DIR$/src/com/young/WarmUp/RepeatedString.java" />
         <option value="$PROJECT_DIR$/src/com/young/Arrays/HourGlassSum.java" />
         <option value="$PROJECT_DIR$/src/com/young/Arrays/LeftRotation.java" />
+        <option value="$PROJECT_DIR$/src/com/young/Arrays/NewYearChaos.java" />
       </list>
     </option>
   </component>
@@ -136,7 +149,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.LeftRotation">
+  <component name="RunManager" selected="Application.NewYearChaos">
     <configuration name="CountingValleys" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.young.WarmUp.CountingValleys" />
       <module name="HackerRank" />
@@ -167,6 +180,16 @@
         </pattern>
       </extension>
     </configuration>
+    <configuration name="NewYearChaos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.young.Arrays.NewYearChaos" />
+      <module name="HackerRank" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.young.Arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="RepeatedString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.young.WarmUp.RepeatedString" />
       <module name="HackerRank" />
@@ -177,30 +200,20 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="SockMerchant" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.young.WarmUp.SockMerchant" />
-      <module name="HackerRank" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.young.WarmUp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
     <list>
-      <item itemvalue="Application.SockMerchant" />
       <item itemvalue="Application.CountingValleys" />
       <item itemvalue="Application.JumpingOnClouds" />
       <item itemvalue="Application.RepeatedString" />
       <item itemvalue="Application.LeftRotation" />
+      <item itemvalue="Application.NewYearChaos" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NewYearChaos" />
         <item itemvalue="Application.LeftRotation" />
         <item itemvalue="Application.RepeatedString" />
         <item itemvalue="Application.JumpingOnClouds" />
         <item itemvalue="Application.CountingValleys" />
-        <item itemvalue="Application.SockMerchant" />
       </list>
     </recent_temporary>
   </component>
@@ -300,8 +313,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/young/Arrays/LeftRotation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="49" lean-forward="true" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
+        <state relative-caret-position="210">
+          <caret line="14" selection-start-line="14" selection-end-line="21" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/young/Arrays/NewYearChaos.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="29" column="37" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
