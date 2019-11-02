@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b82c60fc-1bdb-4829-801e-0d20c5e3c2fc" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/young/WarmUp/CountingValleys.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/young/WarmUp/JumpingOnClouds.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HackerRank/com/young/WarmUp/CountingValleys.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HackerRank/com/young/WarmUp/CountingValleys.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,11 +28,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CountingValleys.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CountingValleys.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/young/WarmUp/CountingValleys.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
+            <state relative-caret-position="225">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JumpingOnClouds.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/young/WarmUp/JumpingOnClouds.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="585">
+              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
             </state>
           </provider>
         </entry>
@@ -53,6 +63,7 @@
       <list>
         <option value="$PROJECT_DIR$/src/com/young/WarmUp/SockMerchant.java" />
         <option value="$PROJECT_DIR$/src/com/young/WarmUp/CountingValleys.java" />
+        <option value="$PROJECT_DIR$/src/com/young/WarmUp/JumpingOnClouds.java" />
       </list>
     </option>
   </component>
@@ -119,9 +130,19 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CountingValleys">
+  <component name="RunManager" selected="Application.JumpingOnClouds">
     <configuration name="CountingValleys" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.young.WarmUp.CountingValleys" />
+      <module name="HackerRank" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.young.WarmUp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="JumpingOnClouds" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.young.WarmUp.JumpingOnClouds" />
       <module name="HackerRank" />
       <extension name="coverage">
         <pattern>
@@ -151,9 +172,11 @@
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.SockMerchant" />
       <item itemvalue="Application.CountingValleys" />
+      <item itemvalue="Application.JumpingOnClouds" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JumpingOnClouds" />
         <item itemvalue="Application.CountingValleys" />
         <item itemvalue="Application.SockMerchant" />
       </list>
@@ -227,8 +250,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/young/WarmUp/CountingValleys.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/young/WarmUp/JumpingOnClouds.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
         </state>
       </provider>
     </entry>
