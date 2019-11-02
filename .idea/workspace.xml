@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b82c60fc-1bdb-4829-801e-0d20c5e3c2fc" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/young/Arrays/ArrayManipulation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/young/DictionariesHashMap/RansomNote.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -63,11 +63,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ArrayManipulation.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ArrayManipulation.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/young/Arrays/ArrayManipulation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" selection-start-line="23" selection-end-line="37" />
+            <state relative-caret-position="585">
+              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RansomNote.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/young/DictionariesHashMap/RansomNote.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="606">
+              <caret line="45" column="33" selection-start-line="45" selection-start-column="33" selection-end-line="45" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -96,6 +108,7 @@
         <option value="$PROJECT_DIR$/src/com/young/Arrays/NewYearChaos.java" />
         <option value="$PROJECT_DIR$/src/com/young/Arrays/MinimumSwaps.java" />
         <option value="$PROJECT_DIR$/src/com/young/Arrays/ArrayManipulation.java" />
+        <option value="$PROJECT_DIR$/src/com/young/DictionariesHashMap/RansomNote.java" />
       </list>
     </option>
   </component>
@@ -135,6 +148,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="young" type="462c0819:PsiDirectoryNode" />
               <item name="Arrays" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HackerRank" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HackerRank" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="young" type="462c0819:PsiDirectoryNode" />
+              <item name="DictionariesHashMap" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HackerRank" type="b2602c69:ProjectViewProjectNode" />
@@ -252,6 +272,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-39" y="26" width="1651" height="1016" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -356,8 +377,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/young/Arrays/ArrayManipulation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" selection-start-line="23" selection-end-line="37" />
+        <state relative-caret-position="585">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/young/DictionariesHashMap/RansomNote.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="606">
+          <caret line="45" column="33" selection-start-line="45" selection-start-column="33" selection-end-line="45" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
