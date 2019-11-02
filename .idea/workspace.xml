@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b82c60fc-1bdb-4829-801e-0d20c5e3c2fc" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/young/WarmUp/JumpingOnClouds.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HackerRank/com/young/WarmUp/CountingValleys.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HackerRank/com/young/WarmUp/CountingValleys.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/young/WarmUp/RepeatedString.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,32 +14,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="SockMerchant.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/young/WarmUp/SockMerchant.java">
+      <file leaf-file-name="RepeatedString.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/young/WarmUp/RepeatedString.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CountingValleys.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/young/WarmUp/CountingValleys.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JumpingOnClouds.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/young/WarmUp/JumpingOnClouds.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="585">
-              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+            <state relative-caret-position="360">
+              <caret line="24" column="58" lean-forward="true" selection-start-line="24" selection-start-column="58" selection-end-line="24" selection-end-column="58" />
             </state>
           </provider>
         </entry>
@@ -64,6 +41,7 @@
         <option value="$PROJECT_DIR$/src/com/young/WarmUp/SockMerchant.java" />
         <option value="$PROJECT_DIR$/src/com/young/WarmUp/CountingValleys.java" />
         <option value="$PROJECT_DIR$/src/com/young/WarmUp/JumpingOnClouds.java" />
+        <option value="$PROJECT_DIR$/src/com/young/WarmUp/RepeatedString.java" />
       </list>
     </option>
   </component>
@@ -130,7 +108,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.JumpingOnClouds">
+  <component name="RunManager" selected="Application.RepeatedString">
     <configuration name="CountingValleys" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.young.WarmUp.CountingValleys" />
       <module name="HackerRank" />
@@ -158,6 +136,16 @@
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
     </configuration>
+    <configuration name="RepeatedString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.young.WarmUp.RepeatedString" />
+      <module name="HackerRank" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.young.WarmUp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="SockMerchant" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.young.WarmUp.SockMerchant" />
       <module name="HackerRank" />
@@ -173,9 +161,11 @@
       <item itemvalue="Application.SockMerchant" />
       <item itemvalue="Application.CountingValleys" />
       <item itemvalue="Application.JumpingOnClouds" />
+      <item itemvalue="Application.RepeatedString" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RepeatedString" />
         <item itemvalue="Application.JumpingOnClouds" />
         <item itemvalue="Application.CountingValleys" />
         <item itemvalue="Application.SockMerchant" />
@@ -257,8 +247,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/young/WarmUp/JumpingOnClouds.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+        <state relative-caret-position="270">
+          <caret line="18" column="44" lean-forward="true" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/young/WarmUp/RepeatedString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="58" lean-forward="true" selection-start-line="24" selection-start-column="58" selection-end-line="24" selection-end-column="58" />
         </state>
       </provider>
     </entry>
