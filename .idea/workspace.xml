@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b82c60fc-1bdb-4829-801e-0d20c5e3c2fc" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/young/DictionariesHashMap/RansomNote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/young/DictionariesHashMap/TwoStrings.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -72,11 +72,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RansomNote.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="RansomNote.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/young/DictionariesHashMap/RansomNote.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="606">
-              <caret line="45" column="33" selection-start-line="45" selection-start-column="33" selection-end-line="45" selection-end-column="33" />
+            <state relative-caret-position="718">
+              <caret line="58" column="58" lean-forward="true" selection-start-line="58" selection-start-column="58" selection-end-line="58" selection-end-column="58" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TwoStrings.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/young/DictionariesHashMap/TwoStrings.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -109,6 +121,7 @@
         <option value="$PROJECT_DIR$/src/com/young/Arrays/MinimumSwaps.java" />
         <option value="$PROJECT_DIR$/src/com/young/Arrays/ArrayManipulation.java" />
         <option value="$PROJECT_DIR$/src/com/young/DictionariesHashMap/RansomNote.java" />
+        <option value="$PROJECT_DIR$/src/com/young/DictionariesHashMap/TwoStrings.java" />
       </list>
     </option>
   </component>
@@ -189,17 +202,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MinimumSwaps">
-    <configuration name="JumpingOnClouds" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.young.WarmUp.JumpingOnClouds" />
-      <module name="HackerRank" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.young.WarmUp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
+  <component name="RunManager" selected="Application.TwoStrings">
     <configuration name="LeftRotation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.young.Arrays.LeftRotation" />
       <module name="HackerRank" />
@@ -240,20 +243,30 @@
         </pattern>
       </extension>
     </configuration>
+    <configuration name="TwoStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.young.DictionariesHashMap.TwoStrings" />
+      <module name="HackerRank" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.young.DictionariesHashMap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <list>
-      <item itemvalue="Application.JumpingOnClouds" />
       <item itemvalue="Application.RepeatedString" />
       <item itemvalue="Application.LeftRotation" />
       <item itemvalue="Application.NewYearChaos" />
       <item itemvalue="Application.MinimumSwaps" />
+      <item itemvalue="Application.TwoStrings" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TwoStrings" />
         <item itemvalue="Application.MinimumSwaps" />
         <item itemvalue="Application.NewYearChaos" />
         <item itemvalue="Application.LeftRotation" />
         <item itemvalue="Application.RepeatedString" />
-        <item itemvalue="Application.JumpingOnClouds" />
       </list>
     </recent_temporary>
   </component>
@@ -384,8 +397,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/young/DictionariesHashMap/RansomNote.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="606">
-          <caret line="45" column="33" selection-start-line="45" selection-start-column="33" selection-end-line="45" selection-end-column="33" />
+        <state relative-caret-position="718">
+          <caret line="58" column="58" lean-forward="true" selection-start-line="58" selection-start-column="58" selection-end-line="58" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/young/DictionariesHashMap/TwoStrings.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
