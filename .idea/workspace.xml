@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b82c60fc-1bdb-4829-801e-0d20c5e3c2fc" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/young/DictionariesHashMap/TwoStrings.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/young/DictionariesHashMap/Anagrams.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -84,11 +83,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TwoStrings.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="TwoStrings.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/young/DictionariesHashMap/TwoStrings.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+            <state relative-caret-position="435">
+              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Anagrams.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/young/DictionariesHashMap/Anagrams.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="23">
+              <caret line="20" selection-start-line="20" selection-end-line="56" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -122,6 +133,7 @@
         <option value="$PROJECT_DIR$/src/com/young/Arrays/ArrayManipulation.java" />
         <option value="$PROJECT_DIR$/src/com/young/DictionariesHashMap/RansomNote.java" />
         <option value="$PROJECT_DIR$/src/com/young/DictionariesHashMap/TwoStrings.java" />
+        <option value="$PROJECT_DIR$/src/com/young/DictionariesHashMap/Anagrams.java" />
       </list>
     </option>
   </component>
@@ -202,7 +214,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.TwoStrings">
+  <component name="RunManager" selected="Application.Anagrams">
+    <configuration name="Anagrams" type="Application" factoryName="Application" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.young.DictionariesHashMap.Anagrams" />
+      <module name="HackerRank" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.young.DictionariesHashMap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="LeftRotation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.young.Arrays.LeftRotation" />
       <module name="HackerRank" />
@@ -233,16 +255,6 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="RepeatedString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.young.WarmUp.RepeatedString" />
-      <module name="HackerRank" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.young.WarmUp.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
     <configuration name="TwoStrings" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.young.DictionariesHashMap.TwoStrings" />
       <module name="HackerRank" />
@@ -254,10 +266,10 @@
       </extension>
     </configuration>
     <list>
-      <item itemvalue="Application.RepeatedString" />
+      <item itemvalue="Application.Anagrams" />
       <item itemvalue="Application.LeftRotation" />
-      <item itemvalue="Application.NewYearChaos" />
       <item itemvalue="Application.MinimumSwaps" />
+      <item itemvalue="Application.NewYearChaos" />
       <item itemvalue="Application.TwoStrings" />
     </list>
     <recent_temporary>
@@ -266,7 +278,6 @@
         <item itemvalue="Application.MinimumSwaps" />
         <item itemvalue="Application.NewYearChaos" />
         <item itemvalue="Application.LeftRotation" />
-        <item itemvalue="Application.RepeatedString" />
       </list>
     </recent_temporary>
   </component>
@@ -407,8 +418,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/young/DictionariesHashMap/TwoStrings.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+        <state relative-caret-position="435">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/young/DictionariesHashMap/Anagrams.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="20" selection-start-line="20" selection-end-line="56" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
