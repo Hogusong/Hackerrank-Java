@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b82c60fc-1bdb-4829-801e-0d20c5e3c2fc" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/com/young/DictionariesHashMap/FrequencyQueries.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/young/DictionariesHashMap/FrequencyQueries.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/young/DictionariesHashMap/CountTriples.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,24 +15,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="RepeatedString.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/young/WarmUp/RepeatedString.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="44" lean-forward="true" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HourGlassSum.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/young/Arrays/HourGlassSum.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="LeftRotation.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/young/Arrays/LeftRotation.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -107,11 +90,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FrequencyQueries.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FrequencyQueries.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/young/DictionariesHashMap/FrequencyQueries.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="97" selection-start-line="97" selection-end-line="153" />
+            <state relative-caret-position="390">
+              <caret line="45" selection-start-line="27" selection-end-line="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CountTriples.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/young/DictionariesHashMap/CountTriples.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="234">
+              <caret line="19" column="44" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -152,6 +144,7 @@
         <option value="$PROJECT_DIR$/src/com/young/DictionariesHashMap/TwoStrings.java" />
         <option value="$PROJECT_DIR$/src/com/young/DictionariesHashMap/Anagrams.java" />
         <option value="$PROJECT_DIR$/src/com/young/DictionariesHashMap/FrequencyQueries.java" />
+        <option value="$PROJECT_DIR$/src/com/young/DictionariesHashMap/CountTriples.java" />
       </list>
     </option>
   </component>
@@ -232,9 +225,19 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FrequencyQueries">
+  <component name="RunManager" selected="Application.CountTriples">
     <configuration name="Anagrams" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.young.DictionariesHashMap.Anagrams" />
+      <module name="HackerRank" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.young.DictionariesHashMap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="CountTriples" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.young.DictionariesHashMap.CountTriples" />
       <module name="HackerRank" />
       <extension name="coverage">
         <pattern>
@@ -249,16 +252,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.young.DictionariesHashMap.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="LeftRotation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.young.Arrays.LeftRotation" />
-      <module name="HackerRank" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.young.Arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -295,19 +288,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Anagrams" />
-      <item itemvalue="Application.LeftRotation" />
       <item itemvalue="Application.MinimumSwaps" />
       <item itemvalue="Application.NewYearChaos" />
       <item itemvalue="Application.TwoStrings" />
       <item itemvalue="Application.FrequencyQueries" />
+      <item itemvalue="Application.CountTriples" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CountTriples" />
         <item itemvalue="Application.FrequencyQueries" />
         <item itemvalue="Application.TwoStrings" />
         <item itemvalue="Application.MinimumSwaps" />
         <item itemvalue="Application.NewYearChaos" />
-        <item itemvalue="Application.LeftRotation" />
       </list>
     </recent_temporary>
   </component>
@@ -338,10 +331,10 @@
       <window_info anchor="right" id="Maven Projects" order="6" />
       <window_info anchor="right" id="Run" order="8" visible="true" weight="0.32877564" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.25680086" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.25680086" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14170292" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14170292" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="5" />
@@ -468,8 +461,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/young/DictionariesHashMap/FrequencyQueries.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="97" selection-start-line="97" selection-end-line="153" />
+        <state relative-caret-position="390">
+          <caret line="45" selection-start-line="27" selection-end-line="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/src.zip!/java/util/function/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/young/DictionariesHashMap/CountTriples.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="19" column="44" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
         </state>
       </provider>
     </entry>
