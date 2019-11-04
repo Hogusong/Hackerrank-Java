@@ -24,7 +24,7 @@ public class FrequencyQueries {
 
     }
 
-    static List<Integer> freqQuery(List<List<Integer>> queries) {
+    private static List<Integer> freqQuery(List<List<Integer>> queries) {
         Map<Integer, Integer> dict = new HashMap<>();
         List<Integer> result = new ArrayList<>();
         for (List<Integer> q : queries) {
@@ -92,5 +92,64 @@ public class FrequencyQueries {
         freqSet.remove(key);
         if (freqSet.size() > 0) freq.put(freqKey, freqSet);
         else freq.remove(freqKey);
+    }
+
+    private static List freqQuery2(List<List<Integer>> queries) {
+        List ans = new ArrayList<>();
+        final int INSERT = 1;
+        final int REMOVE = 2;
+        final int QUERY = 3;
+
+        Map<Integer, Integer> value2count = new HashMap<>();
+        Map<Integer, Integer> count2countOccurance = new HashMap<>();
+
+        for (List<Integer> q: queries) {
+            int type = q.get(0);
+            int value = q.get(1);
+
+            if (type == INSERT) {
+                if (value2count.containsKey(value)) {
+                    int oldCount = value2count.get(value);
+                    int newCount = oldCount + 1;
+
+                    value2count.put(value, newCount);
+
+                    count2countOccurance.put(oldCount, count2countOccurance.get(oldCount) - 1);
+
+                    if (!count2countOccurance.containsKey(newCount)) {
+                        count2countOccurance.put(newCount, 0);
+                    }
+                    count2countOccurance.put(newCount, count2countOccurance.get(newCount) + 1);
+                } else {
+                    value2count.put(value, 1);
+                    if (!count2countOccurance.containsKey(1)) {
+                        count2countOccurance.put(1, 0);
+                    }
+                    count2countOccurance.put(1, count2countOccurance.get(1) + 1);
+                }
+            } else if (type == REMOVE) {
+                if (value2count.containsKey(value)) {
+                    int oldCount = value2count.get(value);
+                    int newCount = Math.max(oldCount - 1, 0);
+
+                    value2count.put(value, newCount);
+
+                    count2countOccurance.put(oldCount, count2countOccurance.get(oldCount) - 1);
+
+                    if (!count2countOccurance.containsKey(newCount)) {
+                        count2countOccurance.put(newCount, 0);
+                    }
+                    count2countOccurance.put(newCount, count2countOccurance.get(newCount) + 1);
+                }
+            } else if (type == QUERY) {
+                if (count2countOccurance.containsKey(value) && count2countOccurance.get(value) > 0) {
+                    ans.add(1);
+                } else {
+                    ans.add(0);
+                }
+            }
+        }
+
+        return ans;
     }
 }
