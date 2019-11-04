@@ -44,4 +44,53 @@ public class FrequencyQueries {
         }
         return result;
     }
+
+    private static List<Integer> freqQueries(List<List<Integer>> queries) {
+        Map<Integer, Integer> container = new HashMap<>();
+        Map<Integer, Set<Integer>> freq = new HashMap<>();
+        List<Integer> result = new ArrayList<>();
+        for (List<Integer> q : queries) {
+            int option = q.get(0), key = q.get(1);
+            if (option == 1) {
+                if (!container.containsKey(key)) {
+                    container.put(key, 1);
+                    addFreq(freq, 1, key);
+                } else {
+                    container.put(key, container.get(key)+1);
+                    int freqKey = container.get(key);
+                    addFreq(freq, freqKey, key);
+                    removeFreq(freq, freqKey-1, key);
+                }
+            } else if (option == 2) {
+                if (container.containsKey(key)) {
+                    int freqKey = container.get(key);
+                    if (freqKey == 1) container.remove(key);
+                    else {
+                        container.put(key, freqKey-1);
+                        addFreq(freq, freqKey-1, key);
+                    }
+                    removeFreq(freq, freqKey, key);
+                }
+            } else {
+                if (freq.containsKey(key)) result.add(1);
+                else result.add(0);
+            }
+        }
+        return result;
+    }
+
+    private static void addFreq(Map<Integer, Set<Integer>> freq, int freqKey, int value) {
+        Set<Integer> freqSet;
+        if (!freq.containsKey(freqKey)) freq.put(freqKey, new HashSet<Integer>());
+        freqSet = freq.get(freqKey);
+        freqSet.add(value);
+        freq.put(freqKey, freqSet);
+    }
+
+    private static void removeFreq(Map<Integer, Set<Integer>> freq, int freqKey, int key) {
+        Set<Integer> freqSet = freq.get(freqKey);
+        freqSet.remove(key);
+        if (freqSet.size() > 0) freq.put(freqKey, freqSet);
+        else freq.remove(freqKey);
+    }
 }
