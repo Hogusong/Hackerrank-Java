@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b82c60fc-1bdb-4829-801e-0d20c5e3c2fc" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/young/StringManipulation/AlternatingCharacters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/young/StringManipulation/SherlockAndTheValidString.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -53,11 +54,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AlternatingCharacters.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AlternatingCharacters.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/young/StringManipulation/AlternatingCharacters.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="405">
               <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SherlockAndTheValidString.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/young/StringManipulation/SherlockAndTheValidString.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="52" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -106,6 +119,7 @@
         <option value="$PROJECT_DIR$/src/com/young/Sorting/MergeSort.java" />
         <option value="$PROJECT_DIR$/src/com/young/StringManipulation/MakingAnagrams.java" />
         <option value="$PROJECT_DIR$/src/com/young/StringManipulation/AlternatingCharacters.java" />
+        <option value="$PROJECT_DIR$/src/com/young/StringManipulation/SherlockAndTheValidString.java" />
       </list>
     </option>
   </component>
@@ -265,6 +279,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="29" width="1626" height="1016" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -477,6 +492,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/young/StringManipulation/SherlockAndTheValidString.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
