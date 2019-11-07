@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b82c60fc-1bdb-4829-801e-0d20c5e3c2fc" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/young/GreedyAlgorithms/ReverseShuffleMerge.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/young/GreedyAlgorithms/GreedyFlorist.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -15,15 +15,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MaximumToys.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/young/Sorting/MaximumToys.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="452">
-              <caret line="34" selection-start-line="34" selection-end-line="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="CompareTo.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/young/Sorting/CompareTo.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -108,11 +99,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReverseShuffleMerge.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ReverseShuffleMerge.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/young/GreedyAlgorithms/ReverseShuffleMerge.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="11" selection-start-line="11" selection-end-line="80" />
+            <state relative-caret-position="180">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GreedyFlorist.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/young/GreedyAlgorithms/GreedyFlorist.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="29" column="23" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -167,6 +167,7 @@
         <option value="$PROJECT_DIR$/src/com/young/GreedyAlgorithms/MinimumAbsoluteDifference.java" />
         <option value="$PROJECT_DIR$/src/com/young/GreedyAlgorithms/LuckBalance.java" />
         <option value="$PROJECT_DIR$/src/com/young/GreedyAlgorithms/ReverseShuffleMerge.java" />
+        <option value="$PROJECT_DIR$/src/com/young/GreedyAlgorithms/GreedyFlorist.java" />
       </list>
     </option>
   </component>
@@ -336,9 +337,9 @@
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="6" />
-      <window_info active="true" anchor="right" id="Run" order="8" visible="true" weight="0.33396465" />
+      <window_info anchor="right" id="Run" order="8" visible="true" weight="0.33396465" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.2546246" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.2546246" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14393939" />
@@ -588,8 +589,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/young/GreedyAlgorithms/ReverseShuffleMerge.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="11" selection-start-line="11" selection-end-line="80" />
+        <state relative-caret-position="180">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/young/GreedyAlgorithms/GreedyFlorist.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="29" column="23" selection-start-line="29" selection-start-column="23" selection-end-line="29" selection-end-column="23" />
         </state>
       </provider>
     </entry>
