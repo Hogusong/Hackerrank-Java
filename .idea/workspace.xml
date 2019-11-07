@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b82c60fc-1bdb-4829-801e-0d20c5e3c2fc" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/young/GreedyAlgorithms/LuckBalance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/young/GreedyAlgorithms/ReverseShuffleMerge.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,15 +15,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BubbleSort.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/young/Sorting/BubbleSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" selection-start-line="9" selection-end-line="10" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="MaximumToys.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/young/Sorting/MaximumToys.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -104,14 +96,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LuckBalance.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="LuckBalance.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/young/GreedyAlgorithms/LuckBalance.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="98">
-              <caret line="8" column="18" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="18" />
+            <state relative-caret-position="278">
+              <caret line="20" column="48" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ReverseShuffleMerge.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/young/GreedyAlgorithms/ReverseShuffleMerge.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="11" selection-start-line="11" selection-end-line="80" />
             </state>
           </provider>
         </entry>
@@ -165,6 +166,7 @@
         <option value="$PROJECT_DIR$/src/com/young/StringManipulation/CommonChild.java" />
         <option value="$PROJECT_DIR$/src/com/young/GreedyAlgorithms/MinimumAbsoluteDifference.java" />
         <option value="$PROJECT_DIR$/src/com/young/GreedyAlgorithms/LuckBalance.java" />
+        <option value="$PROJECT_DIR$/src/com/young/GreedyAlgorithms/ReverseShuffleMerge.java" />
       </list>
     </option>
   </component>
@@ -230,7 +232,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CommonChild">
+  <component name="RunManager" selected="Application.ReverseShuffleMerge">
     <configuration name="AlternatingCharacters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.young.StringManipulation.AlternatingCharacters" />
       <module name="HackerRank" />
@@ -271,12 +273,12 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="MaximumToys" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.young.Sorting.MaximumToys" />
+    <configuration name="ReverseShuffleMerge" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.young.GreedyAlgorithms.ReverseShuffleMerge" />
       <module name="HackerRank" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.young.Sorting.*" />
+          <option name="PATTERN" value="com.young.GreedyAlgorithms.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -293,19 +295,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Anagrams" />
-      <item itemvalue="Application.MaximumToys" />
       <item itemvalue="Application.FraudulentActivityNotifications" />
       <item itemvalue="Application.AlternatingCharacters" />
       <item itemvalue="Application.SpecialStringAgain" />
       <item itemvalue="Application.CommonChild" />
+      <item itemvalue="Application.ReverseShuffleMerge" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ReverseShuffleMerge" />
         <item itemvalue="Application.CommonChild" />
         <item itemvalue="Application.SpecialStringAgain" />
         <item itemvalue="Application.AlternatingCharacters" />
         <item itemvalue="Application.FraudulentActivityNotifications" />
-        <item itemvalue="Application.MaximumToys" />
       </list>
     </recent_temporary>
   </component>
@@ -334,9 +336,9 @@
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="6" />
-      <window_info anchor="right" id="Run" order="8" visible="true" weight="0.33396465" />
+      <window_info active="true" anchor="right" id="Run" order="8" visible="true" weight="0.33396465" />
       <window_info anchor="bottom" id="Version Control" order="8" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.2546246" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.2546246" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14393939" />
@@ -576,11 +578,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/young/GreedyAlgorithms/LuckBalance.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="8" column="18" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="18" />
+        <state relative-caret-position="278">
+          <caret line="20" column="48" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/young/GreedyAlgorithms/ReverseShuffleMerge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="11" selection-start-line="11" selection-end-line="80" />
         </state>
       </provider>
     </entry>
