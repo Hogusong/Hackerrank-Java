@@ -17,63 +17,49 @@ public class CountTriples {
         System.out.println(countTriplets(arr, ratio));
     }
 
-    // Get the result of an array(as it is).
-    private static long countTriplets(List<Long> arr, long r) {
-        long ans = 0;
-        Map<Long, Long> right = new HashMap<>();
-        Map<Long, Long> left = new HashMap<>();
-
-        arr.forEach(key -> {
-            right.put(key, right.getOrDefault(key,0L)+1);
-        });
-
-        for (Long key : arr) {
-            if (key % r == 0) {
-                Long once = key / r;
-                Long triple = key * r;
-
-                if (left.containsKey(once) && right.containsKey(triple)) {
-                    ans += (left.get(once) * right.get(triple));
-                }
-            }
-
-            right.put(key, right.get(key) - 1);
-            left.put(key, left.getOrDefault(key, 0L) + 1);
-        }
-        return ans;
-    }
-
     // Get the result of a sorted array.
-    private static long countTriplet(List<Long> arr, long r) {
-        if (arr.size() < 3) return 0L;
+    private static long countTriplets(List<Long> arr, long r) {
+        if (arr.size() < 3) return 0;
+
+        Map<Long, Integer> right = new HashMap<>();
+        Map<Long, Integer> left = new HashMap<>();
+
+        arr.forEach(key -> right.put(key, right.getOrDefault(key, 0) + 1));
+
         long count = 0L;
-        Map<Long, Long> dict = new HashMap<>();
-        for (long k : arr) {
-            if (!dict.containsKey(k)) dict.put(k, 1L);
-            else dict.put(k, dict.get(k)+1);
-        }
         if (r == 1) {
-            for (long k : dict.keySet()) {
-                if (dict.get(k) > 2) count += countTriple(dict.get(k));
+            Map<Integer, Long> dict = new HashMap<>();
+            for (long k : right.keySet()) {
+                int n = right.get(k);
+                if (n > 2) {
+                    if (!dict.containsKey(n)) dict.put(n, countTriple(n));
+                    count += dict.get(n);
+                }
             }
             return count;
         }
 
-        for (long x : dict.keySet()) {
-            if (x % r == 0L) {
-                long i = dict.getOrDefault(x/r, 0L);
-                long j = dict.getOrDefault(x, 0L);
-                long k = dict.getOrDefault(x*r,0L);
-                count += i * j * k;
+        for (int i = 0; i < arr.size(); i++) {
+            long key = arr.get(i);
+            if (key % r == 0) {
+                long once =  key / r;
+                long triple = key * r;
+                if (left.containsKey(once) && right.containsKey(triple)) {
+                    count += left.get(once) * right.get(triple);
+                }
             }
+            left.put(key, left.getOrDefault(key, 0)+1);
+            if (right.get(key) < 2) right.remove(key);
+            else right.put(key, right.get(key)-1);
         }
+
         return count;
     }
 
-    private static long countTriple(long n) {
+    private static long countTriple(int n) {
         long count = 1L;
         long fact = 1L;
-        for (long i = 4L; i < n+1; i++) {
+        for (int i = 4; i <= n; i++) {
             fact += (i-2);
             count += fact;
         }

@@ -1,6 +1,9 @@
 package com.young.Sorting;
 
+import java.util.Collections;
 import java.util.Comparator;
+import java.util.LinkedList;
+import java.util.List;
 
 public class CompareTo {
     // Comparators are used to compare two objects. In this challenge, you'll create a comparator and
@@ -15,7 +18,8 @@ public class CompareTo {
     // 1 if a > b, and 0 if a = b.
 
     public static void main(String[] args) {
-
+        List<List<Integer>> result = new LinkedList<>();
+        Collections.sort(result, new SortOption());
     }
 }
 
@@ -36,5 +40,15 @@ class Checker implements Comparator<Player> {
         if (a.score > b.score) return -1;
         if (a.score < b.score) return 1;
         return a.name.compareTo(b.name);
+    }
+}
+
+class SortOption implements Comparator<List<Integer>> {
+    public int compare(List<Integer> a, List<Integer> b) {
+        for (int i = 0; i < a.size() - 1; i++) {
+            if (a.get(i) == b.get(i)) continue;
+            return a.get(i) - b.get(i);
+        }
+        return a.get(a.size()-1) - b.get(a.size()-1);
     }
 }
