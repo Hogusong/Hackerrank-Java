@@ -12,78 +12,67 @@ public class SwapNodes {
     }
 
     static class Node {
-        int index;
+        int value;
         int depth;
-        Node left;
         Node right;
+        Node left;
 
-        public Node(int index, int depth, Node left, Node right) {
+        Node(int value, int depth, Node right, Node left) {
+            this.value = value;
             this.depth = depth;
-            this.index = index;
-            this.left = left;
             this.right = right;
+            this.left = left;
         }
-    }
-
-    static void printInOrder(Node cur, List<Integer> result) {
-
-        if (cur == null) return ;
-
-        printInOrder(cur.left, result);
-        result.add(cur.index);
-        printInOrder(cur.right, result);
-    }
-
-    static void swapInOrder(Node cur, int depth, int k) {
-
-        if (cur == null) return ;
-
-        swapInOrder(cur.left, depth + 1, k);
-        swapInOrder(cur.right, depth + 1, k);
-
-        if (depth >=k && depth % k == 0 ) {
-            Node tmp = cur.left;
-            cur.left = cur.right;
-            cur.right = tmp;
-        }
-
     }
 
     static int[][] swapNodes(int[][] indexes, int[] queries) {
-        int numOfNodes = indexes.length;
-        int numOfQueries = queries.length;
-        int[][] result = new int[numOfQueries][numOfNodes];
+        int nOfNodes = indexes.length;
+        int nOfQueries = queries.length;
+        int[][] result = new int[nOfQueries][nOfNodes];
 
+        Queue<Node> nodes = new LinkedList<>();
         Node root = new Node(1, 1, null, null);
-        Node cur = root;
-
-        Queue<Node> nodes = new LinkedList<Node>();
-        nodes.offer(cur);
-
-        int N = 0; // = numOfNodes;
-        while (N < numOfNodes) {
-            cur = nodes.poll();
-            int leftData = indexes[N][0];
-            int rightData = indexes[N][1];
-            cur.left = (leftData==-1)? null: new Node(leftData, cur.depth+1, null, null);
-            cur.right = (rightData==-1)? null: new Node(rightData, cur.depth+1, null, null);
-
-            if (cur.left != null && cur.left.index != -1)
-                nodes.offer(cur.left);
-            if (cur.right != null && cur.right.index != -1)
-                nodes.offer(cur.right);
-
-            N++;
+        nodes.add(root);
+        int n = 0;
+        while (n < nOfNodes) {
+            Node curr = nodes.poll();
+            int lData = indexes[n][0];
+            int rData = indexes[n][1];
+            curr.left = (lData == -1) ? null : new Node(lData, curr.depth+1, null, null);
+            curr.right = (rData == -1) ? null : new Node(rData, curr.depth+1, null, null);
+            if (curr.left != null) nodes.add(curr.left);
+            if (curr.right != null) nodes.add(curr.right);
+            n++;
         }
-
-        //TODO: till here we have formed the tree, [not checked yet]
-        for (int i = 0; i < numOfQueries; i++) {
-            swapInOrder(root, 1, queries[i]);
+        for (int i = 0; i < nOfQueries; i++) {
+            swapNodesRec(root, 1, queries[i]);
             List<Integer> res = new ArrayList();
             printInOrder(root, res);
-            result[i] = res.stream().mapToInt(r->r).toArray();
+            int[] ans = new int[res.size()];
+            for (int j = 0; j < res.size(); j++) ans[j] = res.get(j);
+            result[i] = ans;
+        }
+        return result;
+    }
+
+    static void swapNodesRec(Node curr, int depth, int k) {
+        if (curr == null) return;
+
+        if (depth >= k && depth % k == 0) {
+            Node temp = curr.left;
+            curr.left = curr.right;
+            curr.right = temp;
         }
 
-        return result;
+        swapNodesRec(curr.left, depth+1, k);
+        swapNodesRec(curr.right, depth+1, k);
+    }
+
+    static void printInOrder(Node curr, List<Integer> result) {
+        if (curr == null) return;
+
+        printInOrder(curr.left, result);
+        result.add(curr.value);
+        printInOrder(curr.right, result);
     }
 }
