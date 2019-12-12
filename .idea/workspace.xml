@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b82c60fc-1bdb-4829-801e-0d20c5e3c2fc" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/young/Search/Pairs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HackerRank/com/young/Practice.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HackerRank/com/young/Practice.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HackerRank/com/young/SortOption.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HackerRank/com/young/Sorting/Checker.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HackerRank/com/young/Sorting/Checker.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HackerRank/com/young/Sorting/CompareTo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HackerRank/com/young/Sorting/CompareTo.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HackerRank/com/young/Sorting/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HackerRank/com/young/Sorting/Player.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/young/Practice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/young/Practice.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/young/Search/NodesSwap.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/young/Search/SwapNodes.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/young/Search/SwapNodes.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,11 +24,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SwapNodes.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SwapNodes.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/young/Search/SwapNodes.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="535">
-              <caret line="46" column="38" selection-start-line="46" selection-start-column="38" selection-end-line="46" selection-end-column="38" />
+            <state relative-caret-position="248">
+              <caret line="51" column="69" lean-forward="true" selection-start-line="51" selection-start-column="69" selection-end-line="51" selection-end-column="69" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Pairs.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/young/Search/Pairs.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="443">
+              <caret line="38" column="27" lean-forward="true" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="45" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -98,6 +103,7 @@
         <option value="$PROJECT_DIR$/src/com/young/DictionariesHashMap/FrequencyQueries.java" />
         <option value="$PROJECT_DIR$/src/com/young/Practice.java" />
         <option value="$PROJECT_DIR$/src/com/young/Search/SwapNodes.java" />
+        <option value="$PROJECT_DIR$/src/com/young/Search/Pairs.java" />
       </list>
     </option>
   </component>
@@ -193,7 +199,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.NodesSwap">
+  <component name="RunManager" selected="Application.Pairs">
     <configuration name="Anagrams" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.young.DictionariesHashMap.Anagrams" />
       <module name="HackerRank" />
@@ -224,18 +230,18 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="MaxMin" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.young.GreedyAlgorithms.MaxMin" />
+    <configuration name="NodesSwap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.young.Search.NodesSwap" />
       <module name="HackerRank" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.young.GreedyAlgorithms.*" />
+          <option name="PATTERN" value="com.young.Search.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="NodesSwap" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.young.Search.NodesSwap" />
+    <configuration name="Pairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.young.Search.Pairs" />
       <module name="HackerRank" />
       <extension name="coverage">
         <pattern>
@@ -256,19 +262,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Anagrams" />
-      <item itemvalue="Application.MaxMin" />
       <item itemvalue="Application.NodesSwap" />
       <item itemvalue="Application.CountT" />
       <item itemvalue="Application.CountTriples" />
       <item itemvalue="Application.Practice" />
+      <item itemvalue="Application.Pairs" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Pairs" />
         <item itemvalue="Application.NodesSwap" />
         <item itemvalue="Application.Practice" />
         <item itemvalue="Application.CountTriples" />
         <item itemvalue="Application.CountT" />
-        <item itemvalue="Application.MaxMin" />
       </list>
     </recent_temporary>
   </component>
@@ -438,8 +444,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/young/Search/SwapNodes.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="535">
-          <caret line="46" column="38" selection-start-line="46" selection-start-column="38" selection-end-line="46" selection-end-column="38" />
+        <state relative-caret-position="248">
+          <caret line="51" column="69" lean-forward="true" selection-start-line="51" selection-start-column="69" selection-end-line="51" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/young/Search/Pairs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="38" column="27" lean-forward="true" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
