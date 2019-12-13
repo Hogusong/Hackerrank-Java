@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b82c60fc-1bdb-4829-801e-0d20c5e3c2fc" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/young/Search/MinTime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/young/Search/MakingCandies.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/young/Search/MaximumSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -57,11 +59,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MinTime.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MinTime.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/young/Search/MinTime.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="38" selection-end-column="24" />
+            <state relative-caret-position="405">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MakingCandies.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/young/Search/MakingCandies.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="115">
+              <caret line="53" column="31" selection-start-line="53" selection-start-column="31" selection-end-line="53" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MaximumSum.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/young/Search/MaximumSum.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="15" selection-start-line="15" selection-end-line="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -127,13 +150,15 @@
         <option value="$PROJECT_DIR$/src/com/young/Search/Pairs.java" />
         <option value="$PROJECT_DIR$/src/com/young/Search/TripleSum.java" />
         <option value="$PROJECT_DIR$/src/com/young/Search/MinTime.java" />
+        <option value="$PROJECT_DIR$/src/com/young/Search/MaximumSum.java" />
+        <option value="$PROJECT_DIR$/src/com/young/Search/MakingCandies.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1698" />
-    <option name="y" value="64" />
-    <option name="width" value="1703" />
+    <option name="x" value="1686" />
+    <option name="y" value="23" />
+    <option name="width" value="1660" />
     <option name="height" value="1016" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -222,13 +247,23 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MinTime">
+  <component name="RunManager" selected="Application.MakingCandies">
     <configuration name="Anagrams" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.young.DictionariesHashMap.Anagrams" />
       <module name="HackerRank" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.young.DictionariesHashMap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="MakingCandies" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.young.Search.MakingCandies" />
+      <module name="HackerRank" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.young.Search.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -263,16 +298,6 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Practice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.young.Practice" />
-      <module name="HackerRank" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.young.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
     <configuration name="TripleSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.young.Search.TripleSum" />
       <module name="HackerRank" />
@@ -286,18 +311,18 @@
     <list>
       <item itemvalue="Application.Anagrams" />
       <item itemvalue="Application.NodesSwap" />
-      <item itemvalue="Application.Practice" />
       <item itemvalue="Application.Pairs" />
       <item itemvalue="Application.TripleSum" />
       <item itemvalue="Application.MinTime" />
+      <item itemvalue="Application.MakingCandies" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MakingCandies" />
         <item itemvalue="Application.MinTime" />
         <item itemvalue="Application.TripleSum" />
         <item itemvalue="Application.Pairs" />
         <item itemvalue="Application.NodesSwap" />
-        <item itemvalue="Application.Practice" />
       </list>
     </recent_temporary>
   </component>
@@ -324,7 +349,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1698" y="64" width="1703" height="1016" extended-state="0" />
+    <frame x="1686" y="23" width="1660" height="1016" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -335,12 +360,12 @@
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="6" />
-      <window_info active="true" anchor="right" id="Run" order="8" visible="true" weight="0.2871764" />
+      <window_info active="true" anchor="right" id="Run" order="8" visible="true" weight="0.29480842" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3297062" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.2546246" />
+      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.2546246" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.111980736" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11495674" />
       <window_info anchor="bottom" id="Find" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -501,10 +526,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/young/Search/MaximumSum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/young/Search/MinTime.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="38" selection-end-column="24" />
+        <state relative-caret-position="405">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/young/Search/MakingCandies.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="53" column="31" selection-start-line="53" selection-start-column="31" selection-end-line="53" selection-end-column="31" />
         </state>
       </provider>
     </entry>
