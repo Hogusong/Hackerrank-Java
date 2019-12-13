@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b82c60fc-1bdb-4829-801e-0d20c5e3c2fc" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/young/DynamicPrograming/MaxArraySum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/HackerRank/com/young/DynamicPrograming/Abbreviation.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/young/DynamicPrograming/Abbreviation.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HackerRank/com/young/DynamicPrograming/MaxArraySum.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HackerRank/com/young/DynamicPrograming/MaxArraySum.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,11 +26,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MaxArraySum.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MaxArraySum.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/young/DynamicPrograming/MaxArraySum.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="495">
-              <caret line="33" column="35" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
+              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Abbreviation.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/young/DynamicPrograming/Abbreviation.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="578">
+              <caret line="55" selection-start-line="19" selection-end-line="55" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -97,12 +111,13 @@
         <option value="$PROJECT_DIR$/src/com/young/Search/MaximumSum.java" />
         <option value="$PROJECT_DIR$/src/com/young/Search/MakingCandies.java" />
         <option value="$PROJECT_DIR$/src/com/young/DynamicPrograming/MaxArraySum.java" />
+        <option value="$PROJECT_DIR$/src/com/young/DynamicPrograming/Abbreviation.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1686" />
-    <option name="y" value="53" />
+    <option name="x" value="1683" />
+    <option name="y" value="64" />
     <option name="width" value="1660" />
     <option name="height" value="1016" />
   </component>
@@ -206,7 +221,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MaxArraySum">
+  <component name="RunManager" selected="Application.Abbreviation">
+    <configuration name="Abbreviation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.young.DynamicPrograming.Abbreviation" />
+      <module name="HackerRank" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.young.DynamicPrograming.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <configuration name="Anagrams" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.young.DictionariesHashMap.Anagrams" />
       <module name="HackerRank" />
@@ -247,16 +272,6 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Pairs" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.young.Search.Pairs" />
-      <module name="HackerRank" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.young.Search.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
     <configuration name="TripleSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.young.Search.TripleSum" />
       <module name="HackerRank" />
@@ -269,19 +284,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Anagrams" />
-      <item itemvalue="Application.Pairs" />
       <item itemvalue="Application.TripleSum" />
       <item itemvalue="Application.MinTime" />
       <item itemvalue="Application.MakingCandies" />
       <item itemvalue="Application.MaxArraySum" />
+      <item itemvalue="Application.Abbreviation" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Abbreviation" />
         <item itemvalue="Application.MaxArraySum" />
         <item itemvalue="Application.MakingCandies" />
         <item itemvalue="Application.MinTime" />
         <item itemvalue="Application.TripleSum" />
-        <item itemvalue="Application.Pairs" />
       </list>
     </recent_temporary>
   </component>
@@ -308,7 +323,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1686" y="53" width="1660" height="1016" extended-state="0" />
+    <frame x="1683" y="64" width="1660" height="1016" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -512,7 +527,17 @@
     <entry file="file://$PROJECT_DIR$/src/com/young/DynamicPrograming/MaxArraySum.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="495">
-          <caret line="33" column="35" selection-start-line="33" selection-start-column="35" selection-end-line="33" selection-end-column="35" />
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/young/DynamicPrograming/Abbreviation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="55" selection-start-line="19" selection-end-line="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
