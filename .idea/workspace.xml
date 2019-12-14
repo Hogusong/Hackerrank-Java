@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b82c60fc-1bdb-4829-801e-0d20c5e3c2fc" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/young/StacksQueues/MinMaxRiddle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/young/StacksQueues/LargestRectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/young/StacksQueues/LargestRectangle.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/young/StacksQueues/MinMaxRiddle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/young/StacksQueues/MinMaxRiddle.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,20 +23,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="LargestRectangle.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/young/StacksQueues/LargestRectangle.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MinMaxRiddle.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MinMaxRiddle.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/young/StacksQueues/MinMaxRiddle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+            <state relative-caret-position="105">
+              <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -115,6 +104,7 @@
         <option value="$PROJECT_DIR$/src/com/young/StacksQueues/BalancedBrackets.java" />
         <option value="$PROJECT_DIR$/src/com/young/StacksQueues/TaleOfTwoStacks.java" />
         <option value="$PROJECT_DIR$/src/com/young/StacksQueues/LargestRectangle.java" />
+        <option value="$PROJECT_DIR$/src/com/young/StacksQueues/MinMaxRiddle.java" />
       </list>
     </option>
   </component>
@@ -344,9 +334,9 @@
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="6" />
-      <window_info active="true" anchor="right" id="Run" order="8" visible="true" weight="0.39122373" />
+      <window_info anchor="right" id="Run" order="8" visible="true" weight="0.39122373" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3297062" />
-      <window_info anchor="bottom" id="Terminal" order="9" visible="true" weight="0.265506" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.265506" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11495674" />
@@ -592,6 +582,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/young/StacksQueues/LargestRectangle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="29" column="41" lean-forward="true" selection-start-line="29" selection-start-column="41" selection-end-line="29" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/young/Testing.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -601,15 +598,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/young/StacksQueues/MinMaxRiddle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="25" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/young/StacksQueues/LargestRectangle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="555">
-          <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
+        <state relative-caret-position="105">
+          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="8" />
         </state>
       </provider>
     </entry>
