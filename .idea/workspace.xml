@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b82c60fc-1bdb-4829-801e-0d20c5e3c2fc" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/young/StacksQueues/PoisonousPlants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/young/Graphs/FindPath.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/young/Graphs/RoadsAndLibraries.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HackerRank/com/young/StacksQueues/PoisonousPlants$LinkList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HackerRank/com/young/StacksQueues/PoisonousPlants$LinkList.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HackerRank/com/young/StacksQueues/PoisonousPlants.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HackerRank/com/young/StacksQueues/PoisonousPlants.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -24,14 +27,50 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PoisonousPlants.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="PoisonousPlants.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/young/StacksQueues/PoisonousPlants.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="899">
-              <caret line="170" selection-start-line="170" selection-end-line="170" />
+            <state relative-caret-position="175">
+              <caret line="76" column="30" selection-start-line="76" selection-start-column="30" selection-end-line="76" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BalancedBrackets.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/young/StacksQueues/BalancedBrackets.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="27" column="52" lean-forward="true" selection-start-line="27" selection-start-column="52" selection-end-line="27" selection-end-column="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TaleOfTwoStacks.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/young/StacksQueues/TaleOfTwoStacks.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="26" column="41" lean-forward="true" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RoadsAndLibraries.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/young/Graphs/RoadsAndLibraries.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="227">
+              <caret line="101" column="5" lean-forward="true" selection-start-line="101" selection-start-column="5" selection-end-line="101" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FindPath.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/young/Graphs/FindPath.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="356">
+              <caret line="60" column="29" lean-forward="true" selection-start-line="60" selection-start-column="29" selection-end-line="60" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -59,8 +98,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/young/WarmUp/SockMerchant.java" />
-        <option value="$PROJECT_DIR$/src/com/young/WarmUp/CountingValleys.java" />
         <option value="$PROJECT_DIR$/src/com/young/WarmUp/JumpingOnClouds.java" />
         <option value="$PROJECT_DIR$/src/com/young/WarmUp/RepeatedString.java" />
         <option value="$PROJECT_DIR$/src/com/young/Arrays/HourGlassSum.java" />
@@ -110,13 +147,15 @@
         <option value="$PROJECT_DIR$/src/com/young/StacksQueues/LargestRectangle.java" />
         <option value="$PROJECT_DIR$/src/com/young/StacksQueues/MinMaxRiddle.java" />
         <option value="$PROJECT_DIR$/src/com/young/StacksQueues/PoisonousPlants.java" />
+        <option value="$PROJECT_DIR$/src/com/young/Graphs/RoadsAndLibraries.java" />
+        <option value="$PROJECT_DIR$/src/com/young/Graphs/FindPath.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1686" />
-    <option name="y" value="46" />
-    <option name="width" value="1660" />
+    <option name="x" value="1680" />
+    <option name="y" value="64" />
+    <option name="width" value="1729" />
     <option name="height" value="1016" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -125,6 +164,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -148,42 +189,7 @@
               <item name="HackerRank" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="young" type="462c0819:PsiDirectoryNode" />
-              <item name="Arrays" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HackerRank" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HackerRank" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="young" type="462c0819:PsiDirectoryNode" />
-              <item name="DictionariesHashMap" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HackerRank" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HackerRank" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="young" type="462c0819:PsiDirectoryNode" />
-              <item name="DynamicPrograming" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HackerRank" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HackerRank" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="young" type="462c0819:PsiDirectoryNode" />
-              <item name="GreedyAlgorithms" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HackerRank" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HackerRank" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="young" type="462c0819:PsiDirectoryNode" />
-              <item name="Search" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HackerRank" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HackerRank" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="young" type="462c0819:PsiDirectoryNode" />
-              <item name="Sorting" type="462c0819:PsiDirectoryNode" />
+              <item name="Graphs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="HackerRank" type="b2602c69:ProjectViewProjectNode" />
@@ -196,9 +202,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -218,17 +222,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.PoisonousPlants">
-    <configuration name="Abbreviation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.young.DynamicPrograming.Abbreviation" />
-      <module name="HackerRank" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.young.DynamicPrograming.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
+  <component name="RunManager" selected="Application.FindPath">
     <configuration name="Anagrams" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.young.DictionariesHashMap.Anagrams" />
       <module name="HackerRank" />
@@ -249,12 +243,12 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="CountCandies" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.young.DynamicPrograming.CountCandies" />
+    <configuration name="FindPath" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.young.Graphs.FindPath" />
       <module name="HackerRank" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.young.DynamicPrograming.*" />
+          <option name="PATTERN" value="com.young.Graphs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -279,21 +273,31 @@
         </pattern>
       </extension>
     </configuration>
+    <configuration name="RoadsAndLibraries" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.young.Graphs.RoadsAndLibraries" />
+      <module name="HackerRank" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.young.Graphs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <list>
       <item itemvalue="Application.Anagrams" />
-      <item itemvalue="Application.Abbreviation" />
-      <item itemvalue="Application.CountCandies" />
       <item itemvalue="Application.BalancedBrackets" />
       <item itemvalue="Application.LargestRectangle" />
       <item itemvalue="Application.PoisonousPlants" />
+      <item itemvalue="Application.RoadsAndLibraries" />
+      <item itemvalue="Application.FindPath" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindPath" />
+        <item itemvalue="Application.RoadsAndLibraries" />
         <item itemvalue="Application.PoisonousPlants" />
         <item itemvalue="Application.LargestRectangle" />
         <item itemvalue="Application.BalancedBrackets" />
-        <item itemvalue="Application.CountCandies" />
-        <item itemvalue="Application.Abbreviation" />
       </list>
     </recent_temporary>
   </component>
@@ -320,7 +324,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1686" y="46" width="1660" height="1016" extended-state="0" />
+    <frame x="1680" y="64" width="1729" height="1016" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -331,30 +335,64 @@
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="6" />
-      <window_info active="true" anchor="right" id="Run" order="8" visible="true" weight="0.30098888" />
+      <window_info active="true" anchor="right" id="Run" order="8" visible="true" weight="0.35684648" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3297062" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.265506" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11742892" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11499704" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="5" />
       <window_info anchor="right" id="Theme Preview" order="7" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39934713" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="1" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/com/young/Testing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/young/StacksQueues/PoisonousPlants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1110">
+          <caret line="76" column="30" selection-start-line="76" selection-start-column="30" selection-end-line="76" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/young/Testing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/young/StacksQueues/PoisonousPlants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1140">
+          <caret line="76" column="30" lean-forward="true" selection-start-line="76" selection-start-column="30" selection-end-line="76" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/young/Testing.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="330">
@@ -554,20 +592,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/young/StacksQueues/BalancedBrackets.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="27" column="52" lean-forward="true" selection-start-line="27" selection-start-column="52" selection-end-line="27" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/com/young/StacksQueues/TaleOfTwoStacks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
-          <caret line="26" column="41" lean-forward="true" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/young/StacksQueues/LargestRectangle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -592,11 +616,39 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/young/StacksQueues/PoisonousPlants.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="899">
-          <caret line="170" selection-start-line="170" selection-end-line="170" />
+        <state relative-caret-position="175">
+          <caret line="76" column="30" selection-start-line="76" selection-start-column="30" selection-end-line="76" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/young/StacksQueues/BalancedBrackets.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="27" column="52" lean-forward="true" selection-start-line="27" selection-start-column="52" selection-end-line="27" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/young/StacksQueues/TaleOfTwoStacks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="26" column="41" lean-forward="true" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/young/Graphs/RoadsAndLibraries.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="101" column="5" lean-forward="true" selection-start-line="101" selection-start-column="5" selection-end-line="101" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/young/Graphs/FindPath.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="60" column="29" lean-forward="true" selection-start-line="60" selection-start-column="29" selection-end-line="60" selection-end-column="29" />
         </state>
       </provider>
     </entry>
