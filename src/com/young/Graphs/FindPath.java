@@ -15,7 +15,7 @@ public class FindPath {
         findingPath(graph, "Boston", "Phoenix", "BFS");
     }
 
-    static void findingPath(DiGraph graph, String start, String end, String type) {
+    private static void findingPath(DiGraph graph, String start, String end, String type) {
         Node from = graph.findNode(start);
         Node to = graph.findNode(end);
         if (from == null || to == null) {
@@ -30,7 +30,7 @@ public class FindPath {
         } else System.out.println("\nThere is no path of " + from.name + " -> " + to.name + ".");
     }
 
-    static List<Node> findDFS (DiGraph graph, Node from, Node to, List<Node> path, List<Node> shortest) {
+    private static List<Node> findDFS (DiGraph graph, Node from, Node to, List<Node> path, List<Node> shortest) {
         path.add(from);
         if (from.equalTo(to)) return path;
 
@@ -50,7 +50,7 @@ public class FindPath {
         return shortest;
     }
 
-    static List<Node> findBFS (DiGraph graph, Node from, Node to) {
+    private static List<Node> findBFS (DiGraph graph, Node from, Node to) {
         Queue<List<Node>> Q = new LinkedList<>();
         List<Node> temp = new LinkedList<>();
         temp.add(from);
@@ -71,7 +71,7 @@ public class FindPath {
         return null;
     }
 
-    static void printPath(List<Node> path, String prefix) {
+    private static void printPath(List<Node> path, String prefix) {
         System.out.print(prefix);
         for (int i = 0; i < path.size(); i++) {
             System.out.print(path.get(i).name);
@@ -80,13 +80,13 @@ public class FindPath {
         System.out.println();;
     }
 
-    static void buildNodes(DiGraph graph, String[] cities) {
+    private static void buildNodes(DiGraph graph, String[] cities) {
         for (int i = 0; i < cities.length; i++) {
             graph.addNode(new Node(cities[i]));
         }
     }
 
-    static void buildEdges(DiGraph graph) {
+    private static void buildEdges(DiGraph graph) {
         graph.addEdge("Boston", "New York");
         graph.addEdge("Boston", "Providence");
         graph.addEdge("Providence", "Boston");
@@ -98,83 +98,84 @@ public class FindPath {
         graph.addEdge("Denver", "New York");
         graph.addEdge("Los Angeles", "Boston");
     }
-}
 
-class Node {
-    String name;
 
-    Node(String name) {
-        this.name = name;
-    }
+    static class Node {
+        String name;
 
-    boolean equalTo(Node n) {
-        return n.name == this.name;
-    }
-}
-
-class Edge {
-    Node from;
-    Node to;
-
-    Edge(Node from, Node to) {
-        this.from = from;
-        this.to = to;
-    }
-
-    boolean equalTo(Edge edge) {
-        return this.from.equalTo(edge.from) && this.to.equalTo(edge.to);
-    }
-}
-
-class DiGraph {
-    List<Edge> edges;
-    Map<Node, List<Node>> nodes;
-
-    DiGraph() {
-        this.edges = new LinkedList<>();
-        this.nodes = new HashMap<>();
-    }
-
-    void addNode(Node node) {
-        if (!this.nodes.containsKey(node)) this.nodes.put(node, new LinkedList<>());
-        else System.out.println(node.name + " was added already.");
-    }
-
-    Node findNode(String name) {
-        for (Node node : this.nodes.keySet()) {
-            if (node.name == name) return node;
+        Node(String name) {
+            this.name = name;
         }
-        return null;
-    }
 
-    void addEdge(String start, String end) {
-        Node from = this.findNode(start);
-        Node to = this.findNode(end);
-
-        if (from == null || to == null) {
-            System.out.println(start + " or " + end + " is not on the map.");
-        } else if (!this.isNewEdge(from, to)) {
-            System.out.println("The edge " + from.name + " -> " + to.name + " is already added in.");
-        } else {
-            this.nodes.get(from).add(to);
-            this.edges.add(new Edge(from, to));
+        boolean equalTo(Node n) {
+            return n.name == this.name;
         }
     }
 
-    boolean isNewEdge(Node from, Node to) {
-        return !(this.nodes.containsKey(from) && this.nodes.get(from).contains(to));
+    static class Edge {
+        Node from;
+        Node to;
+
+        Edge(Node from, Node to) {
+            this.from = from;
+            this.to = to;
+        }
+
+        boolean equalTo(Edge edge) {
+            return this.from.equals(edge.from) && this.to.equals(edge.to);
+        }
     }
 
-    List<Node> getDestinations(Node node) {
-        List<Node> temp = new LinkedList<>(this.nodes.get(node));
-        return temp;
-    }
-}
+    static class DiGraph {
+        List<Edge> edges;
+        Map<Node, List<Node>> nodes;
 
-class Graph extends DiGraph {
-    @Override
-    void addEdge(String from, String to) {
-        super.addEdge(from, to);
-        super.addEdge(to, from);
+        DiGraph() {
+            this.edges = new LinkedList<>();
+            this.nodes = new HashMap<>();
+        }
+
+        void addNode(Node node) {
+            if (!this.nodes.containsKey(node)) this.nodes.put(node, new LinkedList<>());
+            else System.out.println(node.name + " was added already.");
+        }
+
+        Node findNode(String name) {
+            for (Node node : this.nodes.keySet()) {
+                if (node.name == name) return node;
+            }
+            return null;
+        }
+
+        void addEdge(String start, String end) {
+            Node from = this.findNode(start);
+            Node to = this.findNode(end);
+
+            if (from == null || to == null) {
+                System.out.println(start + " or " + end + " is not on the map.");
+            } else if (!this.isNewEdge(from, to)) {
+                System.out.println("The edge " + from.name + " -> " + to.name + " is already added in.");
+            } else {
+                this.nodes.get(from).add(to);
+                this.edges.add(new Edge(from, to));
+            }
+        }
+
+        boolean isNewEdge(Node from, Node to) {
+            return !(this.nodes.containsKey(from) && this.nodes.get(from).contains(to));
+        }
+
+        List<Node> getDestinations(Node node) {
+            List<Node> temp = new LinkedList<>(this.nodes.get(node));
+            return temp;
+        }
+    }
+
+    static class Graph extends DiGraph {
+        @Override
+        void addEdge(String from, String to) {
+            super.addEdge(from, to);
+            super.addEdge(to, from);
+        }
     }
 }

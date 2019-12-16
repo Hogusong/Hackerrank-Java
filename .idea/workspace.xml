@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b82c60fc-1bdb-4829-801e-0d20c5e3c2fc" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/young/Graphs/FindPath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/young/Graphs/RoadsAndLibraries.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/young/Graphs/FindPathInMaze.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HackerRank/com/young/StacksQueues/PoisonousPlants$LinkList.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HackerRank/com/young/StacksQueues/PoisonousPlants$LinkList.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/HackerRank/com/young/StacksQueues/PoisonousPlants.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HackerRank/com/young/StacksQueues/PoisonousPlants.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HackerRank/com/young/Graphs/Edge.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/HackerRank/com/young/Testing.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/HackerRank/com/young/Testing.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/young/Graphs/FindPath.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/young/Graphs/FindPath.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/young/Testing.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/young/Testing.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,38 +22,17 @@
       <file leaf-file-name="Testing.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/young/Testing.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            <state relative-caret-position="798">
+              <caret line="174" column="11" selection-start-line="174" selection-start-column="11" selection-end-line="174" selection-end-column="11" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PoisonousPlants.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/young/StacksQueues/PoisonousPlants.java">
+      <file leaf-file-name="FindPath.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/com/young/Graphs/FindPath.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="76" column="30" selection-start-line="76" selection-start-column="30" selection-end-line="76" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BalancedBrackets.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/young/StacksQueues/BalancedBrackets.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="27" column="52" lean-forward="true" selection-start-line="27" selection-start-column="52" selection-end-line="27" selection-end-column="52" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TaleOfTwoStacks.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/com/young/StacksQueues/TaleOfTwoStacks.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="26" column="41" lean-forward="true" selection-start-line="26" selection-start-column="41" selection-end-line="26" selection-end-column="41" />
+            <state relative-caret-position="60">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
             </state>
           </provider>
         </entry>
@@ -60,17 +40,17 @@
       <file leaf-file-name="RoadsAndLibraries.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/com/young/Graphs/RoadsAndLibraries.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="101" column="5" lean-forward="true" selection-start-line="101" selection-start-column="5" selection-end-line="101" selection-end-column="5" />
+            <state relative-caret-position="107">
+              <caret line="93" column="43" lean-forward="true" selection-start-line="93" selection-start-column="43" selection-end-line="93" selection-end-column="43" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FindPath.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/com/young/Graphs/FindPath.java">
+      <file leaf-file-name="FindPathInMaze.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/com/young/Graphs/FindPathInMaze.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="60" column="29" lean-forward="true" selection-start-line="60" selection-start-column="29" selection-end-line="60" selection-end-column="29" />
+            <state relative-caret-position="89">
+              <caret line="28" column="54" selection-start-line="28" selection-start-column="54" selection-end-line="28" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -87,6 +67,9 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>B[i]</find>
+      <find>equals</find>
+      <find>isNew</find>
+      <find>&quot;:&quot;</find>
     </findStrings>
     <replaceStrings>
       <replace>key</replace>
@@ -98,7 +81,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/com/young/WarmUp/JumpingOnClouds.java" />
         <option value="$PROJECT_DIR$/src/com/young/WarmUp/RepeatedString.java" />
         <option value="$PROJECT_DIR$/src/com/young/Arrays/HourGlassSum.java" />
         <option value="$PROJECT_DIR$/src/com/young/Arrays/LeftRotation.java" />
@@ -139,7 +121,6 @@
         <option value="$PROJECT_DIR$/src/com/young/DynamicPrograming/MaxArraySum.java" />
         <option value="$PROJECT_DIR$/src/com/young/Main.java" />
         <option value="$PROJECT_DIR$/src/com/young/DynamicPrograming/Abbreviation.java" />
-        <option value="$PROJECT_DIR$/src/com/young/Testing.java" />
         <option value="$PROJECT_DIR$/src/com/young/DynamicPrograming/CountCandies.java" />
         <option value="$PROJECT_DIR$/src/com/young/DynamicPrograming/DecibinaryNumbers.java" />
         <option value="$PROJECT_DIR$/src/com/young/StacksQueues/BalancedBrackets.java" />
@@ -148,14 +129,16 @@
         <option value="$PROJECT_DIR$/src/com/young/StacksQueues/MinMaxRiddle.java" />
         <option value="$PROJECT_DIR$/src/com/young/StacksQueues/PoisonousPlants.java" />
         <option value="$PROJECT_DIR$/src/com/young/Graphs/RoadsAndLibraries.java" />
+        <option value="$PROJECT_DIR$/src/com/young/Testing.java" />
         <option value="$PROJECT_DIR$/src/com/young/Graphs/FindPath.java" />
+        <option value="$PROJECT_DIR$/src/com/young/Graphs/FindPathInMaze.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1680" />
-    <option name="y" value="64" />
-    <option name="width" value="1729" />
+    <option name="x" value="1685" />
+    <option name="y" value="34" />
+    <option name="width" value="1691" />
     <option name="height" value="1016" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -222,23 +205,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.FindPath">
+  <component name="RunManager" selected="Application.FindPathInMaze">
     <configuration name="Anagrams" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.young.DictionariesHashMap.Anagrams" />
       <module name="HackerRank" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.young.DictionariesHashMap.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="BalancedBrackets" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.young.StacksQueues.BalancedBrackets" />
-      <module name="HackerRank" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.young.StacksQueues.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -253,12 +226,12 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="LargestRectangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.young.StacksQueues.LargestRectangle" />
+    <configuration name="FindPathInMaze" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.young.Graphs.FindPathInMaze" />
       <module name="HackerRank" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.young.StacksQueues.*" />
+          <option name="PATTERN" value="com.young.Graphs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -283,21 +256,31 @@
         </pattern>
       </extension>
     </configuration>
+    <configuration name="Testing" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.young.Testing" />
+      <module name="HackerRank" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.young.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
     <list>
       <item itemvalue="Application.Anagrams" />
-      <item itemvalue="Application.BalancedBrackets" />
-      <item itemvalue="Application.LargestRectangle" />
       <item itemvalue="Application.PoisonousPlants" />
       <item itemvalue="Application.RoadsAndLibraries" />
       <item itemvalue="Application.FindPath" />
+      <item itemvalue="Application.Testing" />
+      <item itemvalue="Application.FindPathInMaze" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindPathInMaze" />
+        <item itemvalue="Application.Testing" />
         <item itemvalue="Application.FindPath" />
         <item itemvalue="Application.RoadsAndLibraries" />
         <item itemvalue="Application.PoisonousPlants" />
-        <item itemvalue="Application.LargestRectangle" />
-        <item itemvalue="Application.BalancedBrackets" />
       </list>
     </recent_temporary>
   </component>
@@ -324,7 +307,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1680" y="64" width="1729" height="1016" extended-state="0" />
+    <frame x="1685" y="34" width="1691" height="1016" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -335,12 +318,12 @@
       <window_info anchor="right" id="Capture Analysis" order="5" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="6" />
-      <window_info active="true" anchor="right" id="Run" order="8" visible="true" weight="0.35684648" />
+      <window_info active="true" anchor="right" id="Run" order="8" visible="true" weight="0.3444512" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.3297062" />
       <window_info anchor="bottom" id="Terminal" order="9" weight="0.265506" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11499704" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.11764706" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="5" />
@@ -477,13 +460,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/young/DictionariesHashMap/CountT.java" />
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/src.zip!/java/util/function/Consumer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/young/Sorting/CompareTo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -607,13 +583,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/young/StacksQueues/CastleOnTheGrid.java" />
-    <entry file="file://$PROJECT_DIR$/src/com/young/Testing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/young/StacksQueues/PoisonousPlants.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="175">
@@ -638,17 +607,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_192.jdk/Contents/Home/src.zip!/java/util/function/Consumer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="48" column="9" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/com/young/Graphs/RoadsAndLibraries.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="101" column="5" lean-forward="true" selection-start-line="101" selection-start-column="5" selection-end-line="101" selection-end-column="5" />
+        <state relative-caret-position="107">
+          <caret line="93" column="43" lean-forward="true" selection-start-line="93" selection-start-column="43" selection-end-line="93" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/young/Testing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="798">
+          <caret line="174" column="11" selection-start-line="174" selection-start-column="11" selection-end-line="174" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/young/Graphs/FindPath.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="60" column="29" lean-forward="true" selection-start-line="60" selection-start-column="29" selection-end-line="60" selection-end-column="29" />
+        <state relative-caret-position="60">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/com/young/Graphs/FindPathInMaze.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="28" column="54" selection-start-line="28" selection-start-column="54" selection-end-line="28" selection-end-column="54" />
         </state>
       </provider>
     </entry>
