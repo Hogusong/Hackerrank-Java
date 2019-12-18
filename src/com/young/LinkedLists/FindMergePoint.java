@@ -1,29 +1,36 @@
 package com.young.LinkedLists;
 
-public class InsertNode {
+import java.util.LinkedList;
+import java.util.List;
+
+public class FindMergePoint {
+
     public static void main(String[] args) {
 
     }
 
-    static SinglyLinkedListNode insertNodeAtPosition(SinglyLinkedListNode head, int data, int position) {
-        SinglyLinkedListNode newNode = new SinglyLinkedListNode(data);
-        if (position == 0) {
-            newNode.next = head;
-            return newNode;
+    static int findMergeNode(SinglyLinkedListNode head1, SinglyLinkedListNode head2) {
+        List<Integer> list1 = new LinkedList<>();
+        while (head1 != null) {
+            list1.add(head1.data);
+            head1 = head1.next;
         }
 
-        SinglyLinkedListNode previous = head;
-        SinglyLinkedListNode curr = head;
-        int i = 0;
-        while (curr != null && i < position) {
-            previous = curr;
-            curr = curr.next;
+        List<Integer> list2 = new LinkedList<>();
+        while (head2 != null) {
+            list2.add(head2.data);
+            head2 = head2.next;
+        }
+
+        int i = 0, n1 = list1.size(), n2 = list2.size();
+        while (i < n1 && i < n2) {
+            if (list1.get(n1-i-1) != list2.get(n2-i-1)) {
+                return list1.get(n1-i);
+            }
             i++;
         }
-
-        previous.next = newNode;
-        newNode.next = curr;
-        return head;
+        if (n1 == n2) return list1.get(1);
+        return n1 > n2 ? list2.get(0) : list1.get(0);
     }
 
     static class SinglyLinkedListNode {
